@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: solid 2px white;
+    position: sticky;
+    top: 0px;
+}
+.gridlayout{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+.logoimage{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.logoimage img{
+    width: 40px;
+}
+a{
+    text-decoration: none;
+}
+.righthead{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+input{
+    border: solid 1px;
+    border-radius: 4px;
+    color: white;
+    background-color: #100E0E;
+    padding: 4px 5px 4px 5px;
+}
+input::placeholder{
+    color: white;
+    font-size: 12px;
+}
+.search{
+    display: flex ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.search img{
+    position: relative;
+    right: 24px;
+    width:23px;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+.icons img{
+    width: 23px;
+}
+.herosection{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 80px 0px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    /* position: fixed; */
+    gap: 20px;
+}
+.buttons button{
+    /* margin: 20px 20px 0px 20px; */
+    padding: 5px 18px;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+}
+.maincontent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.leftcontent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+.leftcontent h1{
+    font-size: 45px;
+    width: 600px;
+    padding-top: 90px;
+}
+.leftcontent p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    width: 400px;
+}
+.leftcontent button{
+    padding: 5px 18px;
+    border: red;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+.rightimage{
+    padding: 90px 0px 35px 0px;
+}
+.secondpage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #100E0E;
+    padding: 50px 0px 100px 0px;
+}
+.secondpage h1{
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 50px;
+}
+.underline{
+    height: 8px;
+    width: 350px;
+    margin: 10px auto 100px auto;
+    border-radius: 20px;
+    background: linear-gradient(to right, #5B5B5B 0%,#5B5B5B 20%, red 20%, red 80%, #5B5B5B 80%, #5B5B5B 100%);
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.img img{
+    width: 400px;
+}
+.img p{
+    color: white;
+    font-size: 20px;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.thirdpage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 50px 0px 100px 0px;
+    color: white;
+}
+.thirdpage h1{
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 50px;
+}
+.collections{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.rowonecollection{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #383737;
+    border-radius: 20px;
+    padding: 5px 5px;
+    width: 236px;
+}
+.topsection img{
+    width: 100%;
+}
+.bottomsection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottomsection h2{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+}
+.bottomsection p{
+    font-size: 15px;
+    text-align: left;
+    padding: 10px 10px;
+}
+.fourthpage{
+    background-color: #100E0E;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 50px 0px;
+}
+.fourthpage h2{
+    color: white;
+}
+.darkblack{
+    background-color: black;
+    padding: 30px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    padding: 30px 0px;
+    border-bottom: solid 2px white;
+}
+.ending{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 220px;
+    background-color: black;
+    padding: 10px 10px;
+}
+.column1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.logoandname{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logoandname img{
+    width: 15%;
+}
+.heads{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.copyrights{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    gap: 700px;
+}
+
+@media screen and (max-width:500px) {
+    nav,.buttons,.maincontent,.secondpage,.gallery,.row1,.img,.row2,.row3,.thirdpage,.collections,.bottomsection,.column1,.ending,.heads{
+        display: block;
+    }
+    .search,.icons,.righthead,.gridlayout,.leftcontent,.rowonecollection,.box1,.fourthpage,footer,.logoandname,.copyrights{
+        display: flex;
+    }
+    .leftcontent{
+        gap: 30px;
+    }
+    .leftcontent h1{
+        font-size: 30px;
+        width: 100%;
+        padding: 30px 0px 0px 0px;
+        text-align: center;
+    }
+    .leftcontent p{
+        font-size: 20px;
+        width: 80%;
+        text-align: justify;
+    }
+    .leftcontent button{
+        justify-content: center;
+    }
+    .rightimage img{
+        width: 60%;
+        padding-left: 80px;
+    }
+    .img{
+        padding: 30px 0px;
+    }
+    .logoimage{
+        font-size: 15px;
+        gap: 0px;
+    }
+    .logoimage img{
+        width: 70%;
+    }
+    .search{
+        justify-content: start;
+    }
+    .buttons button{
+        padding: 3px 10px;
+    }
+    .gridlayout{
+        gap: 15px;
+    }
+    .righthead{
+        gap: 90px;
+    }
+    .secondpage{
+        padding: 30px 0px;
+    }
+    .secondpage h1{
+        font-size: 30px;
+    }
+    .underline{
+        height: 6px;
+        width: 230px;
+        margin: 5px auto 60px auto;
+        border-radius: 20px;
+    }
+    .thirdpage{
+        padding: 5px;
+    }
+    .thirdpage h1{
+        font-size: 30px; 
+    }
+    .rowonecollection{
+        margin: 100px 0px;
+    }
+    .fourthpage{
+        gap: 40px;
+    }
+    .fourthpage h2{
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .ending{
+        gap: 70px;
+        font-size: 16px;
+    }
+    .ending .column1{
+       padding: 15px 15px;
+    }
+    .logoandname h2{
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+    .copyrights{
+        gap: 30px;
+        padding: 20px 0px;
+    }
+    .copyrights p{
+        font-size: 19px;
+    }
+    .copyrights img{
+        width: 40%;
+    }
+    footer{
+        padding: 30px 0px;
+    }    
+}
+@media(min-width: 700px) and (max-width: 880px){
+    .righthead {
+        gap: 88px;
+    }
+    .ending{
+        gap: 40px;
+    }
+    .copyrights{
+        gap: 180px;
+    }
+}
