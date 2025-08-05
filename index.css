@@ -431,12 +431,23 @@ footer{
 }
 @media(min-width: 700px) and (max-width: 880px){
     .righthead {
-        gap: 88px;
+        gap: 460px;
     }
     .ending{
         gap: 40px;
     }
     .copyrights{
         gap: 180px;
+    }
+    .rowonecollection{
+        gap: 20px;
+    }
+    .fourthpage h2 {
+    color: white;
+    padding: 0px 120px;
+    }
+    .fourthpage {
+    gap: 165px;
+    padding: 100px 0px;
     }
 }
