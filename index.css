@@ -144,7 +144,7 @@ input::placeholder{
 }
 .secondpage h1{
     text-align: center;
-    padding: 20px 20px;
+    padding: 150px 20px 0px 20px;
     font-size: 50px;
 }
 .underline{
@@ -207,7 +207,7 @@ input::placeholder{
 }
 .thirdpage h1{
     text-align: center;
-    padding: 20px 20px;
+    padding: 150px 20px 0px 20px;
     font-size: 50px;
 }
 .collections{
@@ -287,9 +287,9 @@ footer{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 220px;
+    gap: 200px;
     background-color: black;
-    padding: 10px 10px;
+    padding: 30px 30px;
 }
 .column1{
     display: flex;
@@ -426,7 +426,7 @@ footer{
         width: 40%;
     }
     footer{
-        padding: 30px 0px;
+        padding: 100px 0px;
     }    
 }
 @media(min-width: 700px) and (max-width: 880px){
